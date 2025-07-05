@@ -104,7 +104,7 @@ section {
 .hero-text {
   padding: 20px;
   margin: 10px;
-  background-color: #cbccd1;
+  background-color: #e5e5e8;
   border-radius: 20px;
   width: 50%;
   display: flex;
@@ -127,6 +127,17 @@ section {
   color: #333;
   text-align: center;
 }
+
+.hero-text img.hero-logo {
+  margin: 20 auto 0 auto;
+  width: 20px;
+  height: auto;
+  display: block;
+}
+
+/* .hero-logo img{
+  height: 30px;
+} */
 
 /* Story Section Styles */
 .story {
