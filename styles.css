@@ -41,7 +41,24 @@ body {
   border-bottom: 2px solid #ddd;
 }
 
+.header .logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
 
+.header .nav a{
+  text-decoration: none;
+  color: #000;
+  margin-left: 20px;
+  font-weight: bold
+}
+
+.header .donate-btn {
+  background-color: #ffc907;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
 
 /* Add a slight shadow and rounded corners to each section for depth */
 section {
