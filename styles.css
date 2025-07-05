@@ -67,7 +67,7 @@ body {
   display: block;
 }
 
-/* Add a slight shadow and rounded corners to each section for depth */
+/*Add a slight shadow and rounded corners to each section for depth*/
 section {
   background: #fff; /* White background for sections */
   border-radius: 12px; /* Rounded corners */
@@ -79,9 +79,10 @@ section {
 /* Hero Section Styles */
 .hero {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
   padding: 0;
+  margin: 0;
   background-color: #fefefe;
   position: relative;
   width: 100%
@@ -101,7 +102,8 @@ section {
 }
 
 .hero-text {
-  padding: 20px;
+  padding: 40px;
+  margin: 10px;
   background-color: #cbccd1;
   border-radius: 20px;
   width: fit-content;
