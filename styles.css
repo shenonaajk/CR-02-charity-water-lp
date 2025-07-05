@@ -43,9 +43,9 @@ body {
   border-bottom: 2px solid #003366;
 }
 
-.header .logo {
-  font-size: 1.4rem;
-  font-weight: bold;
+.logo img{
+  height: 30px;
+  display: block;
 }
 
 .header .nav a{
