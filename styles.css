@@ -30,7 +30,7 @@ Fonts:
 /* Set up the main font and background color for the whole page */
 body {
   background-color: #ffffff; 
-  font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+  font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -106,20 +106,26 @@ section {
   margin: 10px;
   background-color: #cbccd1;
   border-radius: 20px;
-  width: fit-content;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-family: 'Georgia Pro', serif;
+  font-size: 2rem;
   margin-bottom: 15px;
-  align-items: center;
+  text-align: center;
 }
 
 .hero-text p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: #333;
-  align-items: center;
+  text-align: center;
 }
 
 /* Story Section Styles */
