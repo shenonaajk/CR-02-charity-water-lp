@@ -25,12 +25,23 @@ Fonts:
 
 /* Set up the main font and background color for the whole page */
 body {
-  background-color: #f4f8fb; /* Soft light blue for a fresh look */
+  background-color: #ffffff; /* Soft light blue for a fresh look */
   font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #222;
 }
+
+/* HEADER */
+.header {
+  background-color: #fff7e1;
+  padding: 15px 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+}
+
+
 
 /* Add a slight shadow and rounded corners to each section for depth */
 section {
