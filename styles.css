@@ -25,7 +25,7 @@ Fonts:
 
 /* Set up the main font and background color for the whole page */
 body {
-  background-color: #ffffff; /* Soft light blue for a fresh look */
+  background-color: #ffffff; 
   font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -36,9 +36,11 @@ body {
 .header {
   background-color: #fff7e1;
   padding: 15px 30px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #ddd;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid #003366;
 }
 
 .header .logo {
