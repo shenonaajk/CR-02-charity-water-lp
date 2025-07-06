@@ -139,6 +139,8 @@ section {
   background-color: #fff7e1;
   padding: 40x 20px;
   text-align: center;
+  height: auto;
+  max-width: auto;
 }
 
 .donation h2 {
@@ -152,7 +154,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 15px;
-  max-width: 600px;
+  max-width: 500px;
   margin: 20px auto;
   padding: 0 20px;
   text-align: center;
