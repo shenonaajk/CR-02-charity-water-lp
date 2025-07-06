@@ -35,6 +35,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: #222;
+  overflow-x: hidden;
 }
 
 /* HEADER */
@@ -85,20 +86,35 @@ section {
   margin: 0;
   background-color: #fefefe;
   position: relative;
-  width: 100%
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: hidden;
 }
 
 .hero-img {
   width: 50%;
   margin: 0;
   padding: 0;
+  flex: 1;
 }
 
 .hero img {
   width: 100%;
   height: auto;
+  object-fit: cover;
   display: block;
   /* border-radius: 8px; */
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .hero-text {
@@ -106,12 +122,15 @@ section {
   margin: 10px;
   background-color: #e5e5e8;
   border-radius: 20px;
-  width: 50%;
+  width: 100%;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   box-sizing: border-box;
+  position: relative;
+  margin-bottom: 0 0 20px 0;
 }
 
 .hero-text h1 {
@@ -135,13 +154,18 @@ section {
   display: block;
 }
 
-
 .donation {
+  top: auto;
+  left: 50%;
+  width: 100%;
   background-color: #fff7e1;
-  padding: 40px 20px;
+  padding: 20px 20px;
   text-align: center;
+  bottom: 0;
+  margin: 10px;
   height: auto;
-  max-width: auto;
+  max-width: 600px;
+  box-sizing: border-box;
 }
 
 .donation h2 {
@@ -210,23 +234,6 @@ section {
 .cta-button:hover {
   background-color: #003366;
   color: #fff;
-}
-
-/* Donate Button Styles */
-.donate-button {
-  display: inline-block;
-  background-color: #4FCB53; /* Green */
-  color: #fff;
-  padding: 14px 32px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-top: 18px;
-  box-shadow: 0 2px 8px rgba(79, 203, 83, 0.10);
-  transition: background 0.3s, transform 0.2s;
-  border: none;
-  cursor: pointer;
 }
 
 
