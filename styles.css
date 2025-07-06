@@ -135,23 +135,44 @@ section {
   display: block;
 }
 
-/* .hero-logo img{
-  height: 30px;
-} */
-
-/* Story Section Styles */
-.story {
-  background-color: #8BD1CB; /* Secondary Light Blue */
-  color: #222;
+.donation {
+  background-color: #fff7e1;
+  padding: 40x 20px;
   text-align: center;
-  padding: 30px 20px;
 }
 
-/* Add accent color to section headings */
-h2 {
-  color: #2E9DF7; /* Primary blue */
+.donation h2 {
+  color: #003366; 
   margin-top: 0;
   font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.dono-option {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.dono-option button {
+  padding: 15px;
+  font-size: 0.7px;
+  background-color: #fff;
+  border: #fff;
+  border-radius: 20px;
+  color: #003366;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3 ease;
+}
+
+.dono-option button:hover {
+  background-color: #003366;
+  color: white;
 }
 
 /* Call-to-Action Section Styles */
