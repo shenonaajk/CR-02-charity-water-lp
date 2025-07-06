@@ -135,6 +135,7 @@ section {
   display: block;
 }
 
+
 .donation {
   background-color: #fff7e1;
   padding: 40px 20px;
@@ -182,6 +183,26 @@ section {
   color: white;
 }
 
+.dono-divider {
+  border: none;
+  height: 4px;
+  background-color: #e5e5e8;
+  margin: 30px auto;
+  width: 100%;
+}
+
+/* CTA */
+.cta-button {
+  background-color: #ffc907; 
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 20px;
+  max-width: 100%;
+  text-align: center;
+  padding: 20px 20px;
+}
+
 /* Call-to-Action Section Styles */
 .call-to-action {
   background-color: #FFC907; /* Primary Yellow */
@@ -216,16 +237,11 @@ section {
   cursor: pointer;
 }
 
-/* Change button color when hovered */
-.donate-button:hover {
-  background-color: #159A48; /* Dark Green */
-  transform: translateY(-2px) scale(1.04); /* Slight lift */
-}
 
 /* Add some spacing between sections */
-section {
+/* section {
   margin-bottom: 20px;
-}
+} */
 
 /* 
   Media Queries for Responsive Design
