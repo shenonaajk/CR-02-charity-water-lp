@@ -167,7 +167,7 @@ section {
   font-size: 15px;
   width: 100%;
   background-color: #fff;
-  border: #fff;
+  border: none;
   border-radius: 20px;
   color: #000;
   font-weight: bold;
@@ -194,30 +194,22 @@ section {
 /* CTA */
 .cta-button {
   background-color: #ffc907; 
+  color: #000;
   border: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3 ease;
   max-width: 100%;
   text-align: center;
-  padding: 20px 20px;
+  padding: 15px 30px;
+  display: inline-block;
 }
 
-/* Call-to-Action Section Styles */
-.call-to-action {
-  background-color: #FFC907; /* Primary Yellow */
-  color: #222;
-  text-align: center;
-  padding: 30px 20px;
-}
-
-/* Style the impact story image */
-.impact-image {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 10px;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.10);
+.cta-button:hover {
+  background-color: #003366;
+  color: #fff;
 }
 
 /* Donate Button Styles */
